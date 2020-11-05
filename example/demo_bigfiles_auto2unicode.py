@@ -30,4 +30,4 @@ while tmp_lines:
 inf.close()
 outf.close()
 
-print "converted unicode stored in file", outfile
+print("converted unicode stored in file", outfile)

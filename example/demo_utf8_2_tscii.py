@@ -20,10 +20,10 @@ f.close()
 assert (uni_1 == uni_2), " Both unicode are 'not' same! "
 assert (tscii == tscii_from_uni), " Both tscii are 'not' same! "
 
-print "tscii original input", tscii
-print "from tscii2unicode", uni_1 
-print "from unicode2tscii", tscii_from_uni
-print "back to unicode", uni_2
+print("tscii original input", tscii)
+print("from tscii2unicode", uni_1) 
+print("from unicode2tscii", tscii_from_uni)
+print("back to unicode", uni_2)
 
-print "converted unicode stored in 'encode-result.txt' file"
+print("converted unicode stored in 'encode-result.txt' file")
 

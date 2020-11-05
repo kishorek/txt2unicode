@@ -21,10 +21,10 @@ f.close()
 assert (uni_1 == uni_2), " Both unicode are 'not' same! "
 assert (tscii == tscii_from_auto), " Both tscii are 'not' same! "
 
-print "unicode original input", uni_1
-print "from unicode2tscii", tscii  
-print "from unicode2auto", tscii_from_auto
-print "back to unicode", uni_2
+print("unicode original input", uni_1)
+print("from unicode2tscii", tscii)  
+print("from unicode2auto", tscii_from_auto)
+print("back to unicode", uni_2)
 
-print "converted unicode stored in 'auto_encode-result.txt' file"
+print("converted unicode stored in 'auto_encode-result.txt' file")
 
